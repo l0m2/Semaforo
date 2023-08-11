@@ -1,0 +1,81 @@
+
+body{
+    background-color: black;
+}
+.semaforos-container {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.semaforo {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 400px;
+flex-direction: column;
+justify-content: space-between;
+margin: 0 20px;
+}
+
+.bola {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+margin: 10px;
+}
+
+.vermelho {
+background-color: rgb(78, 0, 0);
+}
+
+.amarelo {
+background-color: rgb(34, 34, 0);
+}
+
+.verde {
+background-color: rgb(0, 29, 0);
+}
+
+.peao-container { 
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 90px;
+margin-left: 40px;
+}
+
+.peao-bola {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+margin: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #ccc;
+}
+
+.peao-parado:before {
+font-weight: 900;
+font-size: 30px;
+color: black;
+}
+
+.peao-andando:before {    
+font-weight: 900;
+font-size: 30px;
+color: black;
+}
+
+#vermelhoP{
+background-color: rgb(78, 0, 0);
+}
+#verdeP{
+background-color: rgb(0, 29, 0);
+}
+
+.peao-container i {
+font-size: 50px; 
+}
+
