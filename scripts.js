@@ -30,9 +30,9 @@ function alternarCores() {
     amarelo.style.backgroundColor = estado.cor === "amarelo" ? "rgb(255, 255, 12)" : "";
     
     if (estado.cor === "verde") {
-        verde.style.backgroundColor = "rgb(4, 255, 4)";
         vermelhoP.style.backgroundColor = "rgb(255, 0, 0)";
-
+        verde.style.backgroundColor = "rgb(4, 255, 4)";
+        
     } else {
         verde.style.backgroundColor = "";
         vermelhoP.style.backgroundColor = "";
